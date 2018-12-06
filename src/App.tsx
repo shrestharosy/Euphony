@@ -1,3 +1,5 @@
+/* global chrome */
+// gives access to chrome browser methods
 import * as React from "react";
 
 class App extends React.Component {

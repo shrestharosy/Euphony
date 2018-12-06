@@ -16,5 +16,12 @@
   "permissions": ["contextMenus", "tabs"],
   "background": {
     "scripts": ["app/background.ts"]
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["app/content.ts"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "web_accessible_resources" : ["*.html"]
 }
