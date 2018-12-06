@@ -10,6 +10,7 @@
     "reactstrap": "^6.5.0"
   },
   "scripts": {
+    "dev" : "watch 'yarn build' src",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test",
@@ -29,6 +30,7 @@
     "@types/node": "^10.12.12",
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
-    "typescript": "^3.2.1"
+    "typescript": "^3.2.1",
+    "watch": "^1.0.2"
   }
 }

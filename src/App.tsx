@@ -8,7 +8,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <p>
-            Ola
+            Ola Euph
           </p>
         </header>
       </div>
