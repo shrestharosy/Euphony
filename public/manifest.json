@@ -13,5 +13,8 @@
     "48": "minion.png",
     "128": "minion.png"
   },
-  "permissions": []
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "scripts": ["app/background.ts"]
+  }
 }
