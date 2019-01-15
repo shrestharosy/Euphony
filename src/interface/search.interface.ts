@@ -4,11 +4,11 @@ export interface ISearchResponse {
 
 export interface IItemsProps {
   snippet: ISnippet;
-  channelTitle: string
 }
 
 interface ISnippet {
   title: string;
+  channelTitle: string
   thumbnails: IThumbnailProps;
 }
 

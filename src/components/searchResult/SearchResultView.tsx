@@ -12,15 +12,17 @@ const SearchResultView: React.SFC<ISearchResultViewProps> = props => {
       {props.searchResults.map((result: IItemsProps, index: number) => {
         return (
           <Row key={index}>
-            <Col>
-              <div>
+            <Col md={2}>
+              <div className={"video-image"}>
                 <img src={result.snippet.thumbnails.default.url} alt="" />
               </div>
             </Col>
-            <Col>
-              <div>
-                <div>{result.snippet.title}</div>
-                <div>{result.channelTitle}</div>
+            <Col md={6}>
+              <div className={"video-title"} title={result.snippet.title}>
+                {result.snippet.title}
+              </div>
+              <div className={"video-description"}>
+                {result.snippet.channelTitle}
               </div>
             </Col>
           </Row>
