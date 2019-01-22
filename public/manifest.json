@@ -23,5 +23,5 @@
       "matches": ["<all_urls>"]
     }
   ],
-  "web_accessible_resources" : ["*.html"]
+  "web_accessible_resources": ["*.html"]
 }
